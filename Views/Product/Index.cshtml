@@ -1,0 +1,36 @@
+@model IEnumerable<FullstackHW.Models.ProductViewModel>
+@{
+    ViewData["Title"] = "List Products";
+}
+
+    <h1>Index</h1>
+    <h4>@ViewData["Title"]</h4>
+    <a asp-controller="Product" asp-action="Create" class="btn btn-primary float-end my-2">Add Product</a>
+    <table class="table">
+        <tr>
+            <th>@Html.DisplayNameFor(model=>model.Id)</th>
+            <th>@Html.DisplayNameFor(model=>model.Name)</th>
+            <th>@Html.DisplayNameFor(model=>model.Description)</th>
+            <th>@Html.DisplayNameFor(model=>model.Price)</th>
+            <th>@Html.DisplayNameFor(model=>model.ExpiredDate)</th>
+            <th>@Html.DisplayNameFor(model=>model.ImageFileName)</th>
+            <th>@Html.DisplayNameFor(model=>model.Source)</th>
+            <th>[Action]</th>
+        </tr>
+        @foreach(var product in Model)
+        {
+            <tr>
+                <td>@product.Id</td>
+                <td>@product.Name</td>
+                <td>@product.Description</td>
+                <td>@product.Price</td>
+                <td>@product.ExpiredDate</td>
+                <td><img src="/images/@product.ImageFileName" width="75"/></td>
+                <td>@product.Source</td>
+                <td>
+                    <a asp-controller="Product" asp-action="Edit" asp-route-id="@product.Id" class="btn btn-info text-white">Edit</a>
+                    <a asp-controller="Product" asp-action="Delete" asp-route-id="@product.Id" class="btn btn-danger text-white">Delete</a>
+                </td>
+            </tr>
+        }
+    </table>
