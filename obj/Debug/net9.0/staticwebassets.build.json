@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "slgivlSavIfCAWRZ4FdJB+3njKWCZIjcp9SPSCaLDY0=",
+  "Hash": "kwoO74HITmB6TCDHr7eXUlS2qAZbgJ4J0MQohTjutAg=",
   "Source": "FullstackHW",
   "BasePath": "_content/FullstackHW",
   "Mode": "Default",
@@ -1506,6 +1506,48 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\images\\20250306081656_train.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\HP\\OneDrive\\Desktop\\FullstackHW\\wwwroot\\images\\20250306082214_umbrella.jpg",
+      "SourceId": "FullstackHW",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\HP\\OneDrive\\Desktop\\FullstackHW\\wwwroot\\",
+      "BasePath": "_content/FullstackHW",
+      "RelativePath": "images/20250306082214_umbrella#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "dew65s6t3s",
+      "Integrity": "hZ45amnAhoUD+1wRVjgSn143JL70BAAta2QGAkixp1E=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\20250306082214_umbrella.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\HP\\OneDrive\\Desktop\\FullstackHW\\wwwroot\\images\\20250306082236_toaster.jpg",
+      "SourceId": "FullstackHW",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\HP\\OneDrive\\Desktop\\FullstackHW\\wwwroot\\",
+      "BasePath": "_content/FullstackHW",
+      "RelativePath": "images/20250306082236_toaster#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "fxjtxck9sb",
+      "Integrity": "3QRIMvIHRifoIFFmq+o0x6RvhlZL+6rOtFapWeL/O3A=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\20250306082236_toaster.jpg"
     },
     {
       "Identity": "C:\\Users\\HP\\OneDrive\\Desktop\\FullstackHW\\wwwroot\\images\\NoData.jpg",
@@ -4185,6 +4227,170 @@
         {
           "Name": "integrity",
           "Value": "sha256-gi7IgOK3e2TsMHr9uz0WV/YDEgK9Xjf+KGY/o28EnMY="
+        }
+      ]
+    },
+    {
+      "Route": "images/20250306082214_umbrella.dew65s6t3s.jpg",
+      "AssetFile": "C:\\Users\\HP\\OneDrive\\Desktop\\FullstackHW\\wwwroot\\images\\20250306082214_umbrella.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "3521"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"hZ45amnAhoUD+1wRVjgSn143JL70BAAta2QGAkixp1E=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 06 Mar 2025 01:22:14 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "dew65s6t3s"
+        },
+        {
+          "Name": "label",
+          "Value": "images/20250306082214_umbrella.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-hZ45amnAhoUD+1wRVjgSn143JL70BAAta2QGAkixp1E="
+        }
+      ]
+    },
+    {
+      "Route": "images/20250306082214_umbrella.jpg",
+      "AssetFile": "C:\\Users\\HP\\OneDrive\\Desktop\\FullstackHW\\wwwroot\\images\\20250306082214_umbrella.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "3521"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"hZ45amnAhoUD+1wRVjgSn143JL70BAAta2QGAkixp1E=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 06 Mar 2025 01:22:14 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-hZ45amnAhoUD+1wRVjgSn143JL70BAAta2QGAkixp1E="
+        }
+      ]
+    },
+    {
+      "Route": "images/20250306082236_toaster.fxjtxck9sb.jpg",
+      "AssetFile": "C:\\Users\\HP\\OneDrive\\Desktop\\FullstackHW\\wwwroot\\images\\20250306082236_toaster.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "4456"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"3QRIMvIHRifoIFFmq+o0x6RvhlZL+6rOtFapWeL/O3A=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 06 Mar 2025 01:22:36 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "fxjtxck9sb"
+        },
+        {
+          "Name": "label",
+          "Value": "images/20250306082236_toaster.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-3QRIMvIHRifoIFFmq+o0x6RvhlZL+6rOtFapWeL/O3A="
+        }
+      ]
+    },
+    {
+      "Route": "images/20250306082236_toaster.jpg",
+      "AssetFile": "C:\\Users\\HP\\OneDrive\\Desktop\\FullstackHW\\wwwroot\\images\\20250306082236_toaster.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "4456"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"3QRIMvIHRifoIFFmq+o0x6RvhlZL+6rOtFapWeL/O3A=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 06 Mar 2025 01:22:36 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-3QRIMvIHRifoIFFmq+o0x6RvhlZL+6rOtFapWeL/O3A="
         }
       ]
     },

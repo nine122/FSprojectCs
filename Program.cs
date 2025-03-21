@@ -5,7 +5,10 @@ var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
-builder.Services.AddDbContext<ProductDbContext>(options=>options.UseSqlite(builder.Configuration.GetConnectionString("ProductDb")));
+builder.Services.AddDbContext<ProductDbContext>(
+    //options=>options.UseSqlite(builder.Configuration.GetConnectionString("SQLiteProductDb"))
+    options => options.UseMySQL(builder.Configuration.GetConnectionString("MySqlProductDb"))
+    );
 
 var app = builder.Build();
 
@@ -26,7 +29,7 @@ app.MapStaticAssets();
 
 app.MapControllerRoute(
     name: "default",
-    pattern: "{controller=Home}/{action=Index}/{id?}")
+    pattern: "{controller=Product}/{action=Index}/{id?}")
     .WithStaticAssets();
 
 

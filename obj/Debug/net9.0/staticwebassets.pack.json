@@ -21,6 +21,14 @@
       "PackagePath": "staticwebassets\\images\\20250306081656_train.jpg"
     },
     {
+      "Id": "C:\\Users\\HP\\OneDrive\\Desktop\\FullstackHW\\wwwroot\\images\\20250306082214_umbrella.jpg",
+      "PackagePath": "staticwebassets\\images\\20250306082214_umbrella.jpg"
+    },
+    {
+      "Id": "C:\\Users\\HP\\OneDrive\\Desktop\\FullstackHW\\wwwroot\\images\\20250306082236_toaster.jpg",
+      "PackagePath": "staticwebassets\\images\\20250306082236_toaster.jpg"
+    },
+    {
       "Id": "C:\\Users\\HP\\OneDrive\\Desktop\\FullstackHW\\wwwroot\\images\\NoData.jpg",
       "PackagePath": "staticwebassets\\images\\NoData.jpg"
     },
